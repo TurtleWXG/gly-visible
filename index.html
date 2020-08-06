@@ -1,0 +1,876 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>数据可视化</title>
+  <link rel="stylesheet" href="./css/border.css">
+  <link rel="stylesheet" href="./css/reset.css">
+  <link rel="stylesheet" href="./css/style.css">
+  <link rel="stylesheet" href="./css/table.css">
+</head>
+
+<body>
+  <div class="view">
+    <div class="view-title">北京市顺义区数据服务系统</div>
+    <div class="view-content">
+      <div class="view-left flex-col-bet">
+        <div class="left-view1">
+          <h3 class="title">
+            <span>人员入住分析</span>
+          </h3>
+          <div class="left-view1-content flex-col">
+            <div class="view1-item1">
+              <div class="flex-row">
+                <div class="view1-item1-box box-nan">
+                  <div class="box-container flex-col">
+                    <div class="box-text flex-row-bet">
+                      <div class="box-text-bet">男性入住人数</div>
+                      <div class="box-text-bet">62%</div>
+                    </div>
+                    <div class="box-text box-text-right">
+                      <p class="">25821</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="view1-item1-box box-nv">
+                  <div class="box-container flex-col">
+                    <div class="box-text flex-row-bet">
+                      <div class="box-text-bet">女性入住人数</div>
+                      <div class="box-text-bet">38%</div>
+                    </div>
+                    <div class="box-text box-text-right">
+                      <p class="">12864</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="view1-item2" id="ryrzfx"></div>
+            <div class="view1-item3">
+              <div class="table">
+                <div class="table-tr">
+                  <div class="table-th">排名</div>
+                  <div class="table-th">地区</div>
+                  <div class="table-th">入住人员人数</div>
+                  <div class="table-th">占比</div>
+                </div>
+                <div class="table-tr">
+                  <div class="table-td">1</div>
+                  <div class="table-td">广东</div>
+                  <div class="table-td">2888人</div>
+                  <div class="table-td">54%</div>
+                </div>
+                <div class="table-tr">
+                  <div class="table-td">1</div>
+                  <div class="table-td">广东</div>
+                  <div class="table-td">2888人</div>
+                  <div class="table-td">54%</div>
+                </div>
+                <div class="table-tr">
+                  <div class="table-td">1</div>
+                  <div class="table-td">广东</div>
+                  <div class="table-td">2888人</div>
+                  <div class="table-td">54%</div>
+                </div>
+                <div class="table-tr">
+                  <div class="table-td">1</div>
+                  <div class="table-td">广东</div>
+                  <div class="table-td">2888人</div>
+                  <div class="table-td">54%</div>
+                </div>
+                <div class="table-tr">
+                  <div class="table-td">1</div>
+                  <div class="table-td">广东</div>
+                  <div class="table-td">2888人</div>
+                  <div class="table-td">54%</div>
+                </div>
+                <div class="table-tr">
+                  <div class="table-td">1</div>
+                  <div class="table-td">广东</div>
+                  <div class="table-td">2888人</div>
+                  <div class="table-td">54%</div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="left-view2">
+          <h3 class="title">
+            <span>车辆分析情况</span>
+          </h3>
+          <div class="left-view2-content">
+            <div class="tips-box flex-row">
+              <div class="tips tips1 flex-row">
+                <div class="tips-img tips-img-long flex-row-bet">
+                  <img src="../img/ydjcl.png" alt="已登记车辆">
+                  已登记车辆
+                </div>
+                <div class="tips-text tips-text-liang text-green">29181</div>
+              </div>
+              <div class="tips tips2 flex-row">
+                <div class="tips-img tips-img-long flex-row-bet">
+                  <img src="../img/lfcl.png" alt="来访车辆">
+                  来访车辆
+                </div>
+                <div class="tips-text tips-text-liang text-blue">34571</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="view-right flex-col-bet">
+        <div class="right-view1">
+          <h3 class="title">
+            <span>来访人员分析</span>
+          </h3>
+          <div class="right-view1-content flex-row">
+            <div class="right-view1-item1 flex-col">
+              <div class="view1-item1-box box-nan">
+                <div class="box-container flex-col">
+                  <div class="box-text flex-row-bet">
+                    <div class="box-text-bet">男性入住人数</div>
+                    <div class="box-text-bet">62%</div>
+                  </div>
+                  <div class="box-text box-text-right">
+                    <p class="">25821</p>
+                  </div>
+                </div>
+              </div>
+              <div class="view1-item1-box box-nv">
+                <div class="box-container flex-col">
+                  <div class="box-text flex-row-bet">
+                    <div class="box-text-bet">女性入住人数</div>
+                    <div class="box-text-bet">38%</div>
+                  </div>
+                  <div class="box-text box-text-right">
+                    <p class="">12864</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="right-view1-item2" id="lfryfx"></div>
+            <div class="right-view1-item3">
+              <div class="table">
+                <div class="table-tr">
+                  <div class="table-th">时间</div>
+                  <div class="table-th">姓名</div>
+                  <div class="table-th">来访事由</div>
+                </div>
+                <div class="table-tr">
+                  <div class="table-td">09:21</div>
+                  <div class="table-td">张三</div>
+                  <div class="table-td">探亲访友</div>
+                </div>
+                <div class="table-tr">
+                  <div class="table-td">09:21</div>
+                  <div class="table-td">张三</div>
+                  <div class="table-td">探亲访友</div>
+                </div>
+                <div class="table-tr">
+                  <div class="table-td">09:21</div>
+                  <div class="table-td">张三</div>
+                  <div class="table-td">探亲访友</div>
+                </div>
+                <div class="table-tr">
+                  <div class="table-td">09:21</div>
+                  <div class="table-td">张三</div>
+                  <div class="table-td">探亲访友</div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="right-view2 flex-row-bet">
+          <div class="right-view2-item1">
+            <h3 class="title">
+              <span>各时段人员刷卡分析</span>
+            </h3>
+            <div class="right-view2-item1-echart" id="gsdryskfx"></div>
+          </div>
+          <div class="right-view2-item2">
+            <h3 class="title">
+              <span>房屋入住分析</span>
+            </h3>
+            <div class="right-view2-item2-content flex-col">
+              <div class="tips-box flex-row">
+                <div class="tips tips1 flex-row">
+                  <div class="tips-img flex-row-bet">
+                    <img src="../img/czw.png" alt="出租屋">
+                    出租屋
+                  </div>
+                  <div class="tips-text tips-text-hu text-green">29181</div>
+                </div>
+                <div class="tips tips2 flex-row">
+                  <div class="tips-img flex-row-bet">
+                    <img src="../img/qy.png" alt="企业">
+                    企业
+                  </div>
+                  <div class="tips-text tips-text-hu text-blue">34571</div>
+                </div>
+              </div>
+              <div class="right-view2-item2-echart" id="fwrzfx"></div>
+            </div>
+          </div>
+        </div>
+        <div class="right-view3 flex-row-bet">
+          <div class="right-view3-item1">
+            <h3 class="title">
+              <span>故障统计</span>
+            </h3>
+            <div class="right-view3-item1-echart" id="gztj"></div>
+          </div>
+          <div class="right-view3-item2">
+            <h3 class="title">
+              <span>预警统计</span>
+            </h3>
+            <div class="right-view3-item2-echart" id="yjtj"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  </div>
+</body>
+<script src="./js/echarts.min.js"></script>
+<script src="./js/jquery-3.5.0.min.js"></script>
+<script src="./js/main.js"></script>
+<script>
+  $(function() {
+    const ryrzfxData = {
+      name: ['0-17岁', '18-44岁', '45-59岁', '60-74岁', '75-89岁', '90岁以上'],
+      value: [801, 622, 546, 612, 812, 609]
+    }
+    ryrzfx('ryrzfx', ryrzfxData)
+    function ryrzfx(id, { name, value }) {
+
+      var myChart = echarts.init(document.getElementById(id));
+
+      // 指定图表的配置项和数据
+      option = {
+        textStyle: {
+          color: 'rgba(110,203,249,1)'
+        },
+        grid: {
+          top: '10%',
+          bottom: '8%'
+        },
+        xAxis: {
+          type: 'category',
+          data: name,
+          axisLine: {
+            lineStyle: {
+              color: 'rgba(51,102,255,0.5)'
+            }
+          },
+          axisTick: false
+        },
+        yAxis: {
+          type: 'value',
+          name: '      人',
+          nameGap: 10,
+          nameTextStyle: {
+            fontSize: 14
+          },
+          splitLine: {
+            show: true,
+            lineStyle: {
+              color: 'rgba(51,102,255,0.5)'
+            }
+          },
+          axisLine: {
+            lineStyle: {
+              color: 'rgba(51,102,255,0.5)'
+            }
+          },
+          axisTick: false
+        },
+        series: [
+          {
+            type: 'bar',
+            barWidth: 33,//柱宽
+            itemStyle: {
+              normal: {
+                //颜色渐变
+                color: new echarts.graphic.LinearGradient(0, 0, 0, 1, [{
+                  offset: 0,
+                  color: '#01B4FF'
+                }, {
+                  offset: 1,
+                  color: '#0336FF'
+                }])
+              }
+            },
+            label: {
+              normal: {
+                show: true,
+                fontSize: 14,
+                fontWeight: 400,
+                color: '#DE8D05',
+                position: 'top',
+              }
+            },
+            data: value
+          }
+        ]
+      };
+      myChart.setOption(option);
+    }
+
+    const lfryfxData = {
+      name: ['0-2', '2-4', '4-6', '6-8', '10-12', '12-14', '14-16', '16-18', '18-20', '20-22', '22-24'],
+      value: [640, 820, 900, 650, 635, 640, 600, 580, 760, 730, 830]
+    }
+    lfryfx('lfryfx', lfryfxData)
+    function lfryfx(id, { name, value }) {
+      var myChart = echarts.init(document.getElementById(id));
+
+      // 指定图表的配置项和数据
+      option = {
+        textStyle: {
+          color: 'rgba(110,203,249,1)'
+        },
+        tooltip: {
+          trigger: 'axis',
+          formatter: ' {b} 时<br /> {c} 人'
+        },
+        grid: {
+          top: '12%',
+          bottom: '12%',
+          left: '8%',
+          right: '4%'
+        },
+        xAxis: {
+          type: 'category',
+          data: name,
+          axisLine: {
+            lineStyle: {
+              color: 'rgba(51,102,255, 1)',
+              type: 'solid'
+            }
+          },
+          axisTick: false,
+          boundaryGap: false,
+          name: '时',
+          nameGap: 10,
+          nameTextStyle: {
+            fontSize: 14
+          },
+        },
+        yAxis: {
+          type: 'value',
+          name: '人',
+          nameGap: 10,
+          nameTextStyle: {
+            fontSize: 14
+          },
+          splitLine: {
+            show: true,
+            lineStyle: {
+              color: 'rgba(51,102,255,0.5)',
+              type: 'dashed'
+            }
+          },
+          axisLine: {
+            lineStyle: {
+              color: 'rgba(51,102,255, 1)',
+            }
+          },
+          axisTick: false
+        },
+        series: [
+          {
+            type: 'line',
+            itemStyle: {
+              color: 'rgba(43, 178, 255, 1)',
+              borderWidth: 1
+            },
+            lineStyle: {
+              color: 'rgba(43, 178, 255, 1)'
+            },
+            areaStyle: {
+              color: {
+                type: 'linear',
+                x: 0,
+                y: 0,
+                x2: 0,
+                y2: 1,
+                colorStops: [{
+                  offset: 0, color: 'rgba(1,180,255, 0.8)'
+                }, {
+                  offset: 1, color: 'rgba(3,54,255, 0.5)'
+                }],
+              }
+            },
+            smooth: true,
+            data: value
+          }
+        ]
+      };
+      myChart.setOption(option);
+    }
+
+    const gsdryskfxData = {
+      name: ['0-2', '2-4', '4-6', '6-8', '10-12', '12-14', '14-16', '16-18', '18-20', '20-22', '22-24'],
+      value: [640, 820, 900, 650, 635, 640, 600, 580, 760, 730, 830]
+    }
+    gsdryskfx('gsdryskfx', gsdryskfxData)
+    function gsdryskfx(id, { name, value }) {
+      var myChart = echarts.init(document.getElementById(id));
+
+      // 指定图表的配置项和数据
+      option = {
+        textStyle: {
+          color: 'rgba(110,203,249,1)'
+        },
+        tooltip: {
+          trigger: 'axis',
+          formatter: ' {b} 时<br /> {c} 人'
+        },
+        grid: {
+          top: '12%',
+          bottom: '12%',
+          left: '8%',
+          right: '8%'
+        },
+        xAxis: {
+          type: 'category',
+          data: name,
+          axisLine: {
+            lineStyle: {
+              color: 'rgba(51,102,255, 1)',
+              type: 'solid'
+            }
+          },
+          axisTick: false,
+          boundaryGap: false,
+          name: '时',
+          nameGap: 10,
+          nameTextStyle: {
+            fontSize: 14
+          },
+        },
+        yAxis: {
+          type: 'value',
+          name: '人',
+          nameGap: 10,
+          nameTextStyle: {
+            fontSize: 14
+          },
+          splitLine: {
+            show: true,
+            lineStyle: {
+              color: 'rgba(51,102,255,0.5)',
+              type: 'dashed'
+            }
+          },
+          axisLine: {
+            lineStyle: {
+              color: 'rgba(51,102,255, 1)',
+            }
+          },
+          axisTick: false
+        },
+        series: [
+          {
+            type: 'line',
+            itemStyle: {
+              color: 'rgba(43, 178, 255, 1)',
+              borderWidth: 1
+            },
+            lineStyle: {
+              color: 'rgba(43, 178, 255, 1)'
+            },
+            areaStyle: {
+              color: {
+                type: 'linear',
+                x: 0,
+                y: 0,
+                x2: 0,
+                y2: 1,
+                colorStops: [{
+                  offset: 0, color: 'rgba(1,180,255, 0.8)'
+                }, {
+                  offset: 1, color: 'rgba(3,54,255, 0.5)'
+                }],
+              }
+            },
+            smooth: true,
+            data: value
+          }
+        ]
+      };
+      myChart.setOption(option);
+    }
+
+    const fwrzfxData = {
+      legend: ['未入住', '已入住'],
+      data: [
+        {
+          name: '已入住',
+          value: 980
+        },
+        {
+          name: '未入住',
+          value: 657
+        }
+      ]
+    }
+    fwrzfx('fwrzfx', fwrzfxData)
+    function fwrzfx(id, { legend, data }) {
+      var myChart = echarts.init(document.getElementById(id));
+      data[0].itemStyle = {
+        color: new echarts.graphic.LinearGradient(0, 1, 0, 0, [{
+          offset: 0,
+          color: '#EF6E18'
+        }, {
+          offset: 1,
+          color: '#FCC204'
+        }])
+      }
+      data[1].itemStyle = {
+        color: new echarts.graphic.LinearGradient(0, 1, 0, 0, [{
+          offset: 0,
+          color: '#0336FF'
+        }, {
+          offset: 1,
+          color: '#01B4FF'
+        }])
+      }
+      option = {
+        legend: {
+          orient: 'vertical',
+          right: '10%',
+          bottom: '5%',
+          textStyle: {
+            color: '#FFFFFF',
+            fontSize: '80%'
+          },
+          formatter: function(name) {
+            const num = data.find((item) => {
+              if (item.name == name) {
+                return item
+              }
+            }).value
+            return `${name}  ${num}人`
+          },
+          data: legend
+        },
+        series: [
+          {
+            name: '房屋入住分析',
+            type: 'pie',
+            radius: ['50%', '80%'],
+            center: ['40%', '50%'],
+            label: {
+              position: 'outside',
+              formatter: function(e) {
+                if (e.data.name == '未入住') {
+                  return [`{a|${e.data.name}}\n`, `{b|${e.data.value}人}`]
+                } else if (e.data.name == '已入住') {
+                  return [`{a|${e.data.name}}\n`, `{c|${e.data.value}人}`]
+                }
+              },
+              rich: {
+                a: {
+                  color: '#FFFFFF',
+                  fontSize: '120%',
+                  lineHeight: 28,
+                  fontFamily: 'Source Han Sans CN'
+                },
+                b: {
+                  color: '#00CCFF',
+                  fontSize: '150%',
+                  fontFamily: 'Source Han Sans CN'
+                },
+                c: {
+                  color: '#FF9933',
+                  fontSize: '150%',
+                  fontFamily: 'Source Han Sans CN'
+                },
+              }
+            },
+            labelLine: {
+              length2: 20
+            },
+            data
+          }
+        ]
+      };
+
+      myChart.setOption(option);
+    }
+
+    const gztjData = {
+      legend: ['车辆道闸故障', '门禁故障', '其他故障'],
+      data: [
+        {
+          name: '车辆道闸故障',
+          value: 655
+        },
+        {
+          name: '门禁故障',
+          value: 657
+        },
+        {
+          name: '其他故障',
+          value: 234
+        }
+      ]
+    }
+    gztj('gztj', gztjData)
+    function gztj(id, { legend, data }) {
+      var myChart = echarts.init(document.getElementById(id));
+      data[0].itemStyle = {
+        color: new echarts.graphic.LinearGradient(0, 1, 0, 0, [{
+          offset: 0,
+          color: '#EF6E18'
+        }, {
+          offset: 1,
+          color: '#FCC204'
+        }])
+      }
+      data[1].itemStyle = {
+        color: new echarts.graphic.LinearGradient(0, 1, 0, 0, [{
+          offset: 0,
+          color: '#0336FF'
+        }, {
+          offset: 1,
+          color: '#01B4FF'
+        }])
+      }
+      data[2].itemStyle = {
+        color: new echarts.graphic.LinearGradient(0, 1, 0, 0, [{
+          offset: 0,
+          color: '#00CBEB'
+        }, {
+          offset: 1,
+          color: '#0AA472'
+        }])
+      }
+      // 计算总数
+      const sun = data.reduce((acc, cur) => {
+        return acc + cur.value
+      }, 0)
+      option = {
+        legend: {
+          orient: 'vertical',
+          right: '10%',
+          bottom: '5%',
+          textStyle: {
+            color: '#FFFFFF',
+            fontSize: '80%'
+          },
+          formatter: function(name) {
+            const num = data.find((item) => {
+              if (item.name == name) {
+                return item
+              }
+            }).value
+            return `${name}  ${(num / sun).toFixed(3) * 100}%`
+          },
+          data: legend
+        },
+        series: [
+          {
+            name: '故障统计',
+            type: 'pie',
+            radius: ['50%', '80%'],
+            center: ['40%', '50%'],
+            label: {
+              position: 'outside',
+              formatter: function(e) {
+                if (e.data.name == '车辆道闸故障') {
+                  return [`{a|${e.data.name}}\n`, `{b|${e.data.value}次}`]
+                } else if (e.data.name == '门禁故障') {
+                  return [`{a|${e.data.name}}\n`, `{c|${e.data.value}次}`]
+                } else if (e.data.name == '其他故障') {
+                  return [`{a|${e.data.name}}\n`, `{d|${e.data.value}次}`]
+                }
+              },
+              rich: {
+                a: {
+                  color: '#FFFFFF',
+                  fontSize: '120%',
+                  lineHeight: 28,
+                  fontFamily: 'Source Han Sans CN'
+                },
+                b: {
+                  color: '#00CCFF',
+                  fontSize: '150%',
+                  fontFamily: 'Source Han Sans CN'
+                },
+                c: {
+                  color: '#FF9933',
+                  fontSize: '150%',
+                  fontFamily: 'Source Han Sans CN'
+                },
+                d: {
+                  color: '#0AA472',
+                  fontSize: '150%',
+                  fontFamily: 'Source Han Sans CN'
+                },
+              }
+            },
+            labelLine: {
+              length2: 20
+            },
+            data
+          }
+        ]
+      };
+
+      myChart.setOption(option);
+    }
+
+    const yjtjData = {
+      legend: ['车辆预警', '人员预警', '其他预警'],
+      data: [
+        {
+          name: '车辆预警',
+          value: 655
+        },
+        {
+          name: '人员预警',
+          value: 657
+        },
+        {
+          name: '其他预警',
+          value: 234
+        }
+      ]
+    }
+    yjtj('yjtj', yjtjData)
+    function yjtj(id, { legend, data }) {
+      var myChart = echarts.init(document.getElementById(id));
+      data[0].itemStyle = {
+        color: new echarts.graphic.LinearGradient(0, 1, 0, 0, [{
+          offset: 0,
+          color: '#EF6E18'
+        }, {
+          offset: 1,
+          color: '#FCC204'
+        }])
+      }
+      data[1].itemStyle = {
+        color: new echarts.graphic.LinearGradient(0, 1, 0, 0, [{
+          offset: 0,
+          color: '#0336FF'
+        }, {
+          offset: 1,
+          color: '#01B4FF'
+        }])
+      }
+      data[2].itemStyle = {
+        color: new echarts.graphic.LinearGradient(0, 1, 0, 0, [{
+          offset: 0,
+          color: '#00CBEB'
+        }, {
+          offset: 1,
+          color: '#0AA472'
+        }])
+      }
+      // 计算总数
+      const sun = data.reduce((acc, cur) => {
+        return acc + cur.value
+      }, 0)
+      option = {
+        legend: {
+          orient: 'vertical',
+          right: '10%',
+          bottom: '5%',
+          textStyle: {
+            color: '#FFFFFF',
+            fontSize: '80%'
+          },
+          formatter: function(name) {
+            const num = data.find((item) => {
+              if (item.name == name) {
+                return item
+              }
+            }).value
+            return `${name}  ${(num / sun).toFixed(3) * 100}%`
+          },
+          data: legend
+        },
+        series: [
+          {
+            name: '故障统计',
+            type: 'pie',
+            radius: ['50%', '80%'],
+            center: ['40%', '50%'],
+            label: {
+              position: 'outside',
+              formatter: function(e) {
+                if (e.data.name == '车辆预警') {
+                  return [`{a|${e.data.name}}\n`, `{b|${e.data.value}次}`]
+                } else if (e.data.name == '人员预警') {
+                  return [`{a|${e.data.name}}\n`, `{c|${e.data.value}次}`]
+                } else if (e.data.name == '其他预警') {
+                  return [`{a|${e.data.name}}\n`, `{d|${e.data.value}次}`]
+                }
+              },
+              rich: {
+                a: {
+                  color: '#FFFFFF',
+                  fontSize: '120%',
+                  lineHeight: 28,
+                  fontFamily: 'Source Han Sans CN'
+                },
+                b: {
+                  color: '#00CCFF',
+                  fontSize: '150%',
+                  fontFamily: 'Source Han Sans CN'
+                },
+                c: {
+                  color: '#FF9933',
+                  fontSize: '150%',
+                  fontFamily: 'Source Han Sans CN'
+                },
+                d: {
+                  color: '#0AA472',
+                  fontSize: '150%',
+                  fontFamily: 'Source Han Sans CN'
+                },
+              }
+            },
+            labelLine: {
+              length2: 20
+            },
+            data
+          }
+        ]
+      };
+
+      myChart.setOption(option);
+    }
+
+    const ids = ['ryrzfx', 'lfryfx', 'lfryfx', 'gsdryskfx', 'fwrzfx', 'gztj', 'yjtj']
+
+      ; (function onResize() {
+        window.onresize = throttle(function() {
+          for (const i of ids) {
+            echarts.init(document.getElementById(i)).resize()
+          }
+        }, 1000)
+      })()
+
+    // 函数节流
+    function throttle(func, delay) {
+      let run = true
+      return function() {
+        if (!run) {
+          return  // 如果开关关闭了，那就直接不执行下边的代码
+        }
+        run = false // 持续触发的话，run一直是false，就会停在上边的判断那里
+        setTimeout(() => {
+          func.apply(this, arguments)
+          run = true // 定时器到时间之后，会把开关打开，我们的函数就会被执行
+        }, delay)
+      }
+    }
+  })
+</script>
+
+</html>
